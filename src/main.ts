@@ -7,4 +7,5 @@ import vuex from './store/index'
 import elementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 createApp(App).use(router).use(vuex).use(elementPlus).use(api).mount('#app')
- 
+  
+

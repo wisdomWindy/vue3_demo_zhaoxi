@@ -1,11 +1,11 @@
-import {createStore} from 'vuex'
+import {defineStore} from 'pinia'
 import state from './state'
-import mutations from './mutations'
 import getters from './getters'
 import actions from './actions'
-export default createStore({
-  state,
-  mutations,
+export default defineStore('mainStore',{
+  state(){
+    return state;
+  },
   getters,
   actions
 })

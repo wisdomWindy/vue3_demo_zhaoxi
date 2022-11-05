@@ -1,5 +1,5 @@
 <template>
-
+  <div class="flowerDetail"></div>
 </template>
 <script setup lang="ts">
 

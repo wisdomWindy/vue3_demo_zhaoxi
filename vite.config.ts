@@ -7,7 +7,17 @@ export default defineConfig({
   resolve:{
     alias:{
       '@':'/src'
-    }
+    },
+    extensions:['.ts']
   },
-  publicDir:'/'
+  publicDir:'/',
+  server:{
+    proxy:{
+      '^/api':{
+        target:'',
+        changeOrigin:true,
+        rewrite:(path) => ''
+      }
+    }
+  }
 })

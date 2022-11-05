@@ -1,9 +1,11 @@
 <template>
-  <div class="weddingFlower">婚姻鲜花</div>
+  <div class="weddingFlower">
+    <FlowerList></FlowerList>
+  </div>
 </template>
 <script setup lang="ts">
-
+import FlowerList from '@/components/FlowerList.vue'
 </script>
-<style>
+<style scoped>
 
 </style>

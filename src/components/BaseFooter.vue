@@ -1,11 +1,11 @@
 <template>
   <div class="footer">
     <el-row justify="center">
-      <el-link v-for="(link, i) in map" :key="i" :href="link.path" :underline="true" class="gap">{{link.label}}</el-link>
+      <el-link v-for="(link, i) in map" :key="link" :href="link.path" :underline="true" class="gap">{{link.label}}</el-link>
     </el-row>
     <el-row justify="center">
       <el-link>友链</el-link>
-        <el-link v-for="(link, i) in links" :key="i" :href="link.path" :underline="true" class="link">{{link.label}}</el-link>
+        <el-link v-for="(link, i) in links" :key="link" :href="link.path" :underline="true" class="link">{{link.label}}</el-link>
     </el-row>
   </div>
 </template>

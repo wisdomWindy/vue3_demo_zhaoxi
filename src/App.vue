@@ -18,11 +18,7 @@ import BaseFooter from '@/components/BaseFooter.vue';
 </script>
 
 <style scoped>
-.main,
-.container {
-  width: 100%;
-  height: 100%;
-}
+
 .header{
   height: auto;
 }

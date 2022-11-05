@@ -19,17 +19,11 @@ const routes = [{
   path:'/WeddingFlower',
   component:() => import('@/views/WeddingFlower.vue')
 },{
-  path:'/register',
-  component:() => import('@/views/Register.vue')
-},{
   path:'/personCenter',
   component:() => import('@/views/PersonCenter.vue')
 },{
   path:'/flowerDetail',
   component:() => import('@/views/FlowerDetail.vue')
-},{
-  path:'/login',
-  component:() => import('@/views/Login.vue')
 }]
 
 export default createRouter({
